@@ -36,10 +36,11 @@ function modelLoaded() {
   console.log("Model Loaded Successfully!");
 }
 
+function gotPoses() {}
+
 function draw(){
   image(video, 0, 0, 700, 600);
 
- background(0); 
 
  fill("black");
  stroke("black");
